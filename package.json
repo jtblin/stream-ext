@@ -1,0 +1,24 @@
+{
+  "name": "stream-ext",
+  "version": "0.0.1",
+  "description": "Simple extensions for Streams (buffer and string)",
+  "main": "index.js",
+  "scripts": {
+    "test": "NODE_ENV=test mocha -w test/"
+  },
+  "keywords": [
+    "stream",
+    "string",
+    "buffer"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jtblin/stream-ext"
+  },
+  "author": "Jerome Touffe-Blin <jtblin@gmail.com>",
+  "license": "BSD-2-Clause",
+  "devDependencies": {
+    "mocha": "~1.17.1",
+    "chai": "~1.9.0"
+  }
+}
